@@ -36,7 +36,8 @@ hvr -> hover
 @mixin colors {  
   // buttons
   --L-a-text-hover-change: 0.8;
-  --clr-a-text: hsl(200, 100%, var(--L-a-text));
+  // --clr-a-text: hsl(200, 100%, var(--L-a-text));
+  --clr-a-text: hsl(0, 0%, var(--L-a-text));
   --clr-a-text-hvr: hsl(200, 100%, calc(var(--L-a-text) * var(--L-a-text-hover-change)));
   --clr-buttons-main-bg: hsl(0, 0%, var(--L-buttons-main-bg));
   --clr-buttons-main-border: hsl(0, 0%, var(--L-buttons-main-border));
